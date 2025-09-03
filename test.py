@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from io import BytesIO
 import re
-# import pdfplumber
+import pdfplumber
 # import tabula  # pip install tabula-py
 # import plotly.express as px
 
@@ -214,6 +214,7 @@ if pdf_file:
         )
     except Exception as e:
         st.error(f"Terjadi error saat membaca PDF: {e}")
+
 
 
 
