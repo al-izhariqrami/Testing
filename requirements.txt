@@ -1,4 +1,6 @@
 pdfplumber
 tabula
 plotly
+openpyxl
+
 
