@@ -1,0 +1,7 @@
+numpy
+pandas
+io
+pdfplumber
+re
+tabula
+plotly
