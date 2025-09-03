@@ -5,7 +5,7 @@ from io import BytesIO
 import re
 import pdfplumber
 # import tabula  # pip install tabula-py
-# import plotly.express as px
+import plotly.express as px
 
 st.title("Preprocessing & Analytic Data RKA SKPD")
 pdf_file = st.file_uploader("Upload file PDF", type="pdf")
@@ -214,6 +214,7 @@ if pdf_file:
         )
     except Exception as e:
         st.error(f"Terjadi error saat membaca PDF: {e}")
+
 
 
 
